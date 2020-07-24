@@ -1,9 +1,1 @@
-// export const COUNTRY_CODE = "COUNTRY_CODE";
-// export const CITY_NAME = "CITY_NAME";
-// export const COUNTRY_CODE = "COUNTRY_CODE";
-// export const TEMP = "TEMP";
 export const WEATHER = "WEATHER";
-// export const RECEIVE_WEATHER = "RECEIVE_WEATHER";
-// export const REQUEST_WEATHER = "REQUEST_WEATHER";
-// export const SELECT_WEATHER = "SELECT_WEATHER";
-// export const INVALIDATE_WEATHER = "INVALIDATE_WEATHER";

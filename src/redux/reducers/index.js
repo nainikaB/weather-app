@@ -1,7 +1,5 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
-// import city_name from "./cityReducers";
 import weatherReducer from "./weatherReducer";
-// import temp from "./tempReducer";
 import thunk from "redux-thunk";
 
 const configureStore = () => {

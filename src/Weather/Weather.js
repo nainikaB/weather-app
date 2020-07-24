@@ -10,21 +10,10 @@ class Weather extends Component {
       city_name: "",
       country_code: "",
     };
-    // this.cityChange = this.cityChange.bind(this);
-    // this.countryChange = this.countryChange.bind(this);
-    // this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  // cityChange = (e) => {
-  //   const { city_name, country_code } = e.target.value;
-  //   this.setState({
-  //     city_name,
-  //     country_code,
-  //   });
-  // };
-
   cityChange = (e) => {
-    const city_name = e.target.value;
+    const city_name = e.target.value; // value of the property of some DOM element
     this.setState({
       city_name,
     });
@@ -86,7 +75,5 @@ const mapStateToProps = (state) => {
     weather: state.weatherObj,
   };
 };
-
-// const mapDispatchToProps = (dispatch) => {};
 
 export default connect(mapStateToProps)(Weather);
